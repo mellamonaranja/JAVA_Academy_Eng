@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class testjava {
+
+	public static void main(String[] args) {
+		
+		int sec;
+		int min;
+		int hour;
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("input the seconds>");
+		sec = scanner.nextInt();
+		
+		
+
+	}
+
+}

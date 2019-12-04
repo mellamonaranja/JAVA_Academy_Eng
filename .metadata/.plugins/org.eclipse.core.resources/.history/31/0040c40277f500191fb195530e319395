@@ -1,0 +1,19 @@
+
+public class exercise {
+
+	public static void main(String[] args) {
+
+		int a;
+		System.out.println("input integer>");
+		
+		java.util.Scanner input = new java.util.Scanner(System.in);
+		a = input.nextInt();
+		
+		switch(a) {
+		case 1:
+			System.out.println("input 1");
+			break;
+		}
+		
+	}
+}

@@ -1,0 +1,23 @@
+
+public class BreakEx02 {
+
+	public static void main(String[] args) {
+		
+//		누적합계 구하기, 0입력 전까지 입력받은 정수의 누적합계 구하기
+//		while, break
+		
+//			
+		int num;
+		while(num!=0);{
+		System.out.println(num);
+	}
+
+		
+//	break;
+//	if(num=0) {
+	}	
+	}
+
+
+
+

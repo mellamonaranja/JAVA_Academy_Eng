@@ -1,0 +1,21 @@
+
+public class DoWhileEx01 {
+
+	public static void main(String[] args) {
+		
+		int num = 0;
+		do {
+		System.out.println("I love JAVA- " + num);
+		num++;
+//		int에 num을 넣고 num을 0으로 초기화
+//		I love JAVA를 출력할건데, num와 출력할 것임
+//		num은 1씩 증가할거고, 반복할 것임
+//		num은 7미만까지만 할거임
+			
+		}while(num<7);
+		
+		System.out.println("반복문 종료 후 num : " + num);
+
+	}
+
+}

@@ -1,0 +1,24 @@
+
+public class exercise {
+
+	public static void main(String[] args) {
+
+		char a = 'B';
+		
+		switch(a) {
+		case 'A':
+			System.out.println("Printed A");
+			break;
+		case 'B':
+			System.out.println("Printed B");
+			break;
+		case 'C':
+		System.out.println("Printed C");
+		break;
+		default :
+			System.out.println("None of A,B,C");
+			break;
+		}
+		
+	}
+}

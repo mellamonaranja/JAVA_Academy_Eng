@@ -1,0 +1,13 @@
+
+public class WhileEx04 {
+
+	public static void main(String[] args) {
+//		누적값 구하는 프로그램
+//		while방법론 사용으로 입력한 값의 누적합을 0을 입력하기 전까지 계속 구해주세요.
+//		0입력 후 종료 후에도 누적합 한 번 더 출력해주세요.
+		
+		
+
+	}
+
+}

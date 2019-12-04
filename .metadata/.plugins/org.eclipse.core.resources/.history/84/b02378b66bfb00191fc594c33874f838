@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class testjava {
+
+	public static void main(String[] args) {
+		
+		int sec;
+		int min;
+		int hour;
+		int nsec;
+		int nmin;
+		int nhour;
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("input the seconds>");
+		sec = scanner.nextInt();
+		
+		if(sec>=0) {
+		
+		min = sec/60;
+		nsec=sec%60;
+		nhour=min/60;
+		nmin=min%60;
+		
+		System.out.printf("The time inserted by keyboard is %d hour, %d minutes, %d seconds\n ", nhour, nmin, nsec);
+		
+		}else
+			System.out.print("Input the right number ");
+		
+			
+		scanner.close();
+		
+
+	}
+
+}
